@@ -1,7 +1,6 @@
 package dreamstart
 
-func twoSum1(nums []int, target int) []int {
-
+func TwoSum1(nums []int, target int) []int {
 	length := len(nums)
 
 	for i := 0; i < length; i++ {
@@ -16,22 +15,14 @@ func twoSum1(nums []int, target int) []int {
 }
 
 func twoSum2(nums []int, target int) []int {
-
 	numMap := map[int]int{}
 
 	for i, v := range nums {
-
-		
 		if idx, ok := numMap[target-v]; ok {
-			
-			return  []int{idx, i}
-
+			return []int{idx, i}
 		} else {
-
 			numMap[v] = i
 		}
-
 	}
-	return  []int{}
-
+	return []int{}
 }

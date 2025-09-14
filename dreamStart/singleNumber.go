@@ -9,13 +9,13 @@ package dreamstart
 
 func singleNumber(nums []int) int {
 
-	// 
+	//
 	m := map[int]bool{}
 
 	for i := 0; i < len(nums); i++ {
-		
+
 		if m[nums[i]] {
-			
+
 			delete(m, nums[i])
 
 		} else {
@@ -24,9 +24,9 @@ func singleNumber(nums []int) int {
 		}
 
 	}
-	
-	for key , _ := range m {
-		return  key
+
+	for key, _ := range m {
+		return key
 	}
 
 	return 0
@@ -37,10 +37,10 @@ func singleNumber2(nums []int) int {
 	res := 0
 
 	for _, v := range nums {
-		
-		res = res^v
-	
+
+		res = res ^ v
+
 	}
-	
-	return  res
+
+	return res
 }
