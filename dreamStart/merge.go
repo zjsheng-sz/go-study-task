@@ -2,7 +2,7 @@ package dreamstart
 
 import "sort"
 
-func merge(intervals [][]int) [][]int {
+func Merge(intervals [][]int) [][]int {
 
 	if len(intervals) <= 1 {
 		return intervals

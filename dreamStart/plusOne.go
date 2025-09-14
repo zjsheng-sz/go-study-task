@@ -1,6 +1,6 @@
 package dreamstart
 
-func plusOne(digits []int) []int {
+func PlusOne(digits []int) []int {
 
 	resNums := []int{}
 

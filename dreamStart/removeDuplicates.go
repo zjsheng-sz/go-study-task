@@ -1,6 +1,6 @@
 package dreamstart
 
-func removeDuplicates(nums []int) int {
+func RemoveDuplicates(nums []int) int {
 
 	p := 1
 

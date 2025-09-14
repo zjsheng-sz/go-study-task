@@ -1,6 +1,6 @@
 package dreamstart
 
-func isValid(s string) bool {
+func IsValid(s string) bool {
 
 	numMap := map[byte]byte{
 		'}': '{',

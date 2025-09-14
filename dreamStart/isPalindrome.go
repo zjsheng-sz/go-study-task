@@ -2,7 +2,7 @@ package dreamstart
 
 import "strconv"
 
-func isPalindrome1(x int) bool {
+func IsPalindrome1(x int) bool {
 
 	if x < 0 {
 		return false
@@ -22,7 +22,7 @@ func isPalindrome1(x int) bool {
 
 }
 
-func isPalindrome2(x int) bool {
+func IsPalindrome2(x int) bool {
 
 	xStr := strconv.Itoa(x)
 

@@ -7,7 +7,7 @@ package dreamstart
 
 */
 
-func singleNumber(nums []int) int {
+func SingleNumber(nums []int) int {
 
 	//
 	m := map[int]bool{}
@@ -32,7 +32,7 @@ func singleNumber(nums []int) int {
 	return 0
 }
 
-func singleNumber2(nums []int) int {
+func SingleNumber2(nums []int) int {
 
 	res := 0
 

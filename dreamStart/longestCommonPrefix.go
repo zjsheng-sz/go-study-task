@@ -1,19 +1,19 @@
 package dreamstart
 
-func longestCommonPrefix(strs []string) string {
+func LongestCommonPrefix(strs []string) string {
 
 	length := len(strs)
 
 	maxLongPre := strs[0]
 
 	for i := 1; i < length; i++ {
-		maxLongPre = longestPrefix(maxLongPre, strs[i])
+		maxLongPre = LongestPrefix(maxLongPre, strs[i])
 	}
 
 	return maxLongPre
 }
 
-func longestPrefix(str1 string, str2 string) string {
+func LongestPrefix(str1 string, str2 string) string {
 
 	len1 := len(str1)
 	len2 := len(str2)

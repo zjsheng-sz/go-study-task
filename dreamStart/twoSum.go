@@ -14,7 +14,7 @@ func TwoSum1(nums []int, target int) []int {
 	return []int{}
 }
 
-func twoSum2(nums []int, target int) []int {
+func TwoSum2(nums []int, target int) []int {
 	numMap := map[int]int{}
 
 	for i, v := range nums {
