@@ -31,3 +31,16 @@ func singleNumber(nums []int) int {
 
 	return 0
 }
+
+func singleNumber2(nums []int) int {
+
+	res := 0
+
+	for _, v := range nums {
+		
+		res = res^v
+	
+	}
+	
+	return  res
+}
